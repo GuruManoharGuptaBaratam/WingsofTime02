@@ -1,0 +1,57 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    min-height: 100vh;
+  }
+  
+  .profile-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .profile-avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #a6d8ff;
+  }
+  
+  .logout-button {
+    margin-top: 1.5rem;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: #b3e0ff;
+    border: none;
+    font-size: 16px;
+    font-family: "JetBrains Mono", monospace;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logout-button:hover {
+    background-color: #80cfff;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 600px) {
+    .profile-card {
+      padding: 1.5rem;
+    }
+  
+    .logout-button {
+      font-size: 14px;
+      padding: 8px 20px;
+    }
+  }
+  

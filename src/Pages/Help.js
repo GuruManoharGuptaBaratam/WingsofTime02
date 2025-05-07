@@ -70,6 +70,7 @@ function Help() {
                   borderRadius: "10px",
                   border: "none",
                   cursor: "pointer",
+                  fontFamily: "JetBrains Mono",
                 }}
               >
                 {faq.question}
