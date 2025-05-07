@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  body, html, .login-page {
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+  }
+  
+  
+  #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    width: 1450px;
+    height: 800px;
+    
+  }
+  
+  .login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-style: "JetBrains Mono";
+  }
+  
+ 
+  .login-container {
+    width: 100%;
+    max-width: 550px; 
+    background: rgba(255, 255, 255, 0.85);
+    padding: 60px 50px; 
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1;
+    font-family: "JetBrains Mono"
+  }
+ 
+  .login-container h1 {
+    font-size: 40px; 
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: "JetBrains Mono"
+  }
+  
+
+  .input-box {
+    position: relative;
+    margin-bottom: 25px;
+  
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 18px 50px 18px 50px; 
+    font-size: 18px; 
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: "JetBrains Mono"
+  }
+  
+
+  .icon {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 38px;
+  }
+  
+  
+  .show {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px; 
+    font-weight: bold;
+    font-family: "JetBrains Mono"
+  }
+  
+
+  .divider {
+    margin: 30px 0;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .signup-btn,
+  .login-btn {
+    padding: 15px 30px;
+    font-size: 18px; 
+    border: none;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    font-family: "JetBrains Mono"
+  }
+  
+  .signup-btn:hover,
+  .login-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .or {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }
