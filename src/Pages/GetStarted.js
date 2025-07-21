@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import ProfileI from '../Components/Profile.js';
 import Background from '../Components/Background.js';
+import Main_logo from "../Sources/Main_logo.png"
 
 const GetStarted = () => {
   const containerStyle = {
@@ -12,9 +13,6 @@ const GetStarted = () => {
     fontFamily: 'Courier New, monospace',
   };
 
-  
-
-  
   const mainContentStyle = {
     position: 'absolute',
     top: '50%',
@@ -32,8 +30,7 @@ const GetStarted = () => {
     width: '300px',
     height: '300px',
     borderRadius: '60%',
-    backgroundColor: 'white',
-    opacity: 0.7,        
+    backgroundColor: 'white',        
     margin: '0 auto 20px',
   };
 
@@ -64,7 +61,9 @@ const GetStarted = () => {
       <div style={mainContentStyle}>
         
         <h1 style={headingStyle}>Welcome To <br /> WingsOfTime</h1>
-        <div style={centerLogoStyle}></div>
+        <div style={centerLogoStyle}>
+          <img src={Main_logo} alt='Main_logo' style={centerLogoStyle}></img>
+        </div>
         <Link to='/Home'> <button style={buttonStyle}>Find your Flight..</button> </Link>
       </div>
     </div>

@@ -7,6 +7,7 @@ import About from './Pages/About';
 import GetStarted from './Pages/GetStarted'
 import ProfileIcon from './Pages/Profile';
 import Search from './Pages/Search';
+import Signup from './Pages/Signup';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/GetStarted' element={<GetStarted/>}/>
       <Route path='/Profile' element={<ProfileIcon/>}/>
       <Route path='/Search' element={<Search/>}/>
+      <Route path='/SignUp' element={<Signup/>}/>
     </Routes>
 
   );

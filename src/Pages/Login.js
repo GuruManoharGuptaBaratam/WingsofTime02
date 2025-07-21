@@ -9,6 +9,7 @@ const LoginPage = () => {
   const [username,setName] = useState("")
   const [pass,setPass] = useState("")
   const [login,setLogin] = useState("")
+
   const togglePassword = () => {
     setShowPassword((prev) => !prev);
   };
@@ -61,7 +62,7 @@ const LoginPage = () => {
         <hr className="divider" />
 
         <div className="buttons">
-          <button className="signup-btn">Sign Up</button>
+          <Link to="/SignUp" ><button className="signup-btn">Sign Up</button></Link>
           <span className="or">OR</span>
           <Link to={login} onClick={handleLogin}><button className="login-btn">Login</button></Link>
         </div>

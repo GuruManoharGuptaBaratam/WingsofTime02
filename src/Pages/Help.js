@@ -98,6 +98,7 @@ function Help() {
             backgroundColor: "#e6f5ff",
             padding: "20px",
             borderRadius: "5px",
+            overflowX: "auto"
           }}
         >
           <h2 style={{ color: "#0077b6" }}>Contact Us</h2>

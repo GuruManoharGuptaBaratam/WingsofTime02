@@ -82,3 +82,28 @@
     padding: 0.8rem;
   }
 }
+
+.more-button {
+  margin-top: 0.8rem;
+  padding: 6px 14px;
+  font-size: 14px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "JetBrains Mono";
+  transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+  background-color: #005f8a;
+}
+
+.flight-details {
+  margin-top: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
