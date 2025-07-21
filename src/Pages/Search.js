@@ -10,7 +10,7 @@ function Search() {
   const [loading, setLoading] = useState(false);
   const [flightData, setFlightData] = useState([]);
   const [expandedCards, setExpandedCards] = useState({}); 
-  const key = "215a0a04e58212b317b73f8300ceda52"
+  const key = process.env.REACT_APP_AVIATION_STACK_API_KEY;
 
   const handleSearch = async () => {
     if (!ticketId.trim()) {
