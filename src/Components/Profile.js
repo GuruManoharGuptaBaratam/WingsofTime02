@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import user from "../Sources/user.png"
+
 export default function ProfileI() {
     const userInfoStyle = {
         position: 'absolute',
@@ -11,7 +11,9 @@ export default function ProfileI() {
         color: '#000',
         fontWeight: 600,
         fontSize: '14px',
-        fontFamily: "JetBrains Mono"
+        fontFamily: "JetBrains Mono",
+        zIndex: 1000, 
+         cursor: 'pointer' 
       };
     
       const userIconStyle = {
@@ -27,7 +29,7 @@ export default function ProfileI() {
 
     <div style={userInfoStyle}>
         <Link to="/Profile" style={{ textDecoration: 'none', color: '#000'}}><div >
-          <img src={user} alt='User_logo' style={userIconStyle}></img>
+          <img src="https://i.imgur.com/3JjKs5g.png" alt='User_logo' style={userIconStyle}></img>
         </div>
         <span >Manohar</span></Link>
     </div>

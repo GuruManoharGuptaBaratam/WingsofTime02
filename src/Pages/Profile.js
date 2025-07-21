@@ -4,6 +4,7 @@ import NavBar from '../Components/NavBar';
 import '../Styles/Profile.css';
 import { Link } from 'react-router-dom';
 import ProfileI from '../Components/Profile';
+
 function ProfilePage() {
   const user = JSON.parse(localStorage.getItem('user')) || {
     name: "Manohar",
@@ -25,7 +26,7 @@ function ProfilePage() {
       <div className="profile-container">
         <div className="profile-card">
           <img
-            src="https://i.imgur.com/3JjKs5g.png"
+            src='https://i.imgur.com/3JjKs5g.png'
             alt="Profile"
             className="profile-avatar"
           />
