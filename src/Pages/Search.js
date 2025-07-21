@@ -5,7 +5,6 @@ import NavBar from "../Components/NavBar";
 import "../Styles/Search.css";
 import ProfileI from "../Components/Profile";
 
-
 function Search() {
   const [ticketId, setTicketId] = useState("");
   const [loading, setLoading] = useState(false);
