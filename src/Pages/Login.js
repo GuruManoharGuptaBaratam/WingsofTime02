@@ -18,7 +18,7 @@ const LoginPage = () => {
       inputRef.current.style.border = "0.5px solid Red"
 
     }
-     if(username === "user01@gmail.com"){
+     if(username === "manohargupta@gmail.com"){
        if (pass === "12344"){
          setLogin("/GetStarted")
        }
