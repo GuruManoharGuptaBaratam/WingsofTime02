@@ -50,6 +50,7 @@ function Search() {
   return (
     <div>
       <Background />
+      <div className="video-overlay"></div>
       <NavBar />
       <ProfileI />
 

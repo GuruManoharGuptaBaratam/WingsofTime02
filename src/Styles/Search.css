@@ -1,3 +1,4 @@
+
 .search-container {
   padding: 40px;
   text-align: center;
@@ -106,4 +107,14 @@
   background-color: #e3f2fd;
   border-radius: 8px;
   font-size: 0.95rem;
+}
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.347); 
+  z-index: -1;
+  pointer-events: none;
 }
