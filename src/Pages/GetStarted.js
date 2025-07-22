@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import ProfileI from '../Components/Profile.js';
 import Background from '../Components/Background.js';
-import Main_logo from "../Sources/Main_logo.png"
+import Main_logo from "../Sources/Main_Logo.png"
 
 const GetStarted = () => {
   const containerStyle = {
